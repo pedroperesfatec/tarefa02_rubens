@@ -1,0 +1,57 @@
+html {
+    background-color: lightgray;
+}
+body {
+    background-color: white;
+}
+header, article, section {
+    background-color: lightblue;
+}
+nav, aside, footer {
+    background-color: lightpink;
+}
+header, nav, article, aside, section, footer {
+    border: dashed 1px blue;
+}
+
+img {
+    width: 100%;
+}
+
+ul.lista-horizontal {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+    margin-right: 5px;
+    
+}
+
+.container {
+    display: flex;
+}
+
+.coluna-1 {
+    width: 50%;
+    background-color: lightblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.coluna-2, .coluna-3 {
+    width: 25%;
+    background-color: lightgreen;
+    padding: 10px;
+    
+}
+.coluna-2 img {
+    height: 100%;
+}
+
+
+footer {
+    text-align: center;
+}
